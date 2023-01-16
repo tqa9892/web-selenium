@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="retest suite">
+<listeners>
+<listener class-name="Listener1.listenerForRetest"></listener>
+</listeners>
+  <test  name="ReTest">
+    <classes>
+      <class name="ui.Testng.retryTestCases"/>
+    </classes>
+  </test> <!-- ReTest -->
+</suite> <!-- retest suite -->
